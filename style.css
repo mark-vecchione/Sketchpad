@@ -1,0 +1,42 @@
+/* Basic reset and styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the h1 text and provide spacing */
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Style for the button */
+  .new-grid-btn {
+    display: block;          /* Make it a block-level element so it sits on its own line */
+    margin: 0 auto 20px;     /* Center horizontally (auto left/right) and add spacing below */
+    padding: 10px 20px;      /* Some padding for a nicer look */
+    font-size: 1rem;         /* Increase font size a bit */
+    cursor: pointer;         /* Show a pointer cursor on hover */
+  }
+  
+  /* Container styling */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;             /* Example total width for your sketch pad */
+    margin: 0 auto;           /* Center the container horizontally */
+    border: 2px solid #333;
+  }
+  
+  /* Grid squares */
+  .grid-square {
+    /* We'll recalculate the width dynamically, but for example: */
+    flex: 1 0 auto;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    /* Setting up initial dimension in JS or keep a default for the initial grid */
+  }
+  
+  
+  
